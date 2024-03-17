@@ -1,4 +1,5 @@
-public static void main(String[] args) {
+public class Main {
+    public static void main(String[] args) {
         Car car = new Car(1, "Toyota", "Camry", 2021, 60);
         Aircraft aircraft = new Aircraft(2, "Boeing", "747", 2000, 35000);
         Boat boat = new Boat(3, "Yamaha", "242X", 2019, 45);
@@ -23,3 +24,4 @@ public static void main(String[] args) {
         boat.stopEngine();
         boat.displayInfo();
   }
+}
